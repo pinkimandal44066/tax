@@ -39,6 +39,7 @@ function App() {
   });
 
   const menuItems = [
+    // { id: 5, title: "Home", path: "/" },
     { id: 1, title: "About Us", path: "/about-us" },
     { id: 2, title: "Service", path: "/service" },
     { id: 3, title: "Enquiry", path: "/enquiry" },
@@ -55,7 +56,7 @@ function App() {
       className="flex flex-col  font-Poppins w-full overflow-x-hidden"
     >
       <header
-        className={`z-50 lg:text-2xl text-lg w-full bg-white font-medium py-6 capitalize ${
+        className={`z-50 lg:text-2xl text-lg w-full bg-white font-medium py-6 px-10 capitalize ${
           isScrolled ? "fixed top-0" : ""
         }`}
       >

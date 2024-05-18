@@ -5,7 +5,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { NavLink, Link, useLocation } from "react-router-dom";
-import taxlogoo from "../../public/taxlogoo.jpg";
+// import taxlogoo from "../../public/taxlogoo.jpg";
+import logo from "../../public/logo.jpeg"
 const Navbar = () => {
   const [isSideMenuOpen, setMenu] = useState(false);
 
@@ -24,7 +25,7 @@ const Navbar = () => {
       <div style={{ position: "relative" }}>
         <NavLink to="/">
           <img
-            src={taxlogoo}
+            src={logo}
             alt=""
             className="w-16 rounded-xl"
             style={{

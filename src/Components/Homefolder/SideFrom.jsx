@@ -163,17 +163,7 @@ const CountryModal = ({ information }) => {
                             </label>
                           </div>
                         </div>
-                        <div className="flex items-center  flex-col">
-                          <h1 className="lg:text-3xl text-xl font-light text-gray-700 mt-9">
-                            Book Site Visit
-                          </h1>
-                          <div className="mt-5 text-3xl text-gray-700  ">
-                            <input type="radio" className="w-10 h-6" />
-                            <label>Yes</label>
-                            <input type="radio" className="w-10 h-6 " />
-                            <label>No</label>
-                          </div>
-                        </div>
+                      
                       </div>
 
                       <div className="">
@@ -199,7 +189,7 @@ const CountryModal = ({ information }) => {
                           className="flex justify-center items-center h-screen
          lg:-mt-44 md:-mt-52 sm:-mt-52 -mt-56"
                         >
-                          <div className="bg-gray-100  rounded-md shadow-md max-w-md w-full">
+                          <div className="bg-[#E79F30]  rounded-md shadow-md max-w-md w-full">
                             <h1 className="text-lg font-semibold mb-4 px-3">
                               Your Message{" "}
                             </h1>
