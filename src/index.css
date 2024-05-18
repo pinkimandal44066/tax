@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbarscrolling ka css */
+
+#app {
+    @apply h-20;
+  }
+  
+  html,
+  body {
+    @apply relative h-full;
+  }
+  
+  
+  .swiper {
+    @apply w-full h-full;
+  }
+  
+  .swiper-slide {
+    @apply text-center text-lg bg-white flex justify-center items-center ;
+  }
+  
+  .swiper-slide img {
+    @apply block w-full h-full object-cover;
+  }
