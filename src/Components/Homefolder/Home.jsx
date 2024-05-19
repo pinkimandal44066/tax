@@ -6,8 +6,10 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Accordion from "./Accordion";
 
 const Home = () => {
+  
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
@@ -248,7 +250,7 @@ const Home = () => {
         </button>
       </NavLink>
 
-      <div>
+      {/* <div>
         <div className="lg:p-0 p-4 md:p-5 space-y-4 mt-6">
           <div>
             <form onSubmit={onSubmit}>
@@ -366,7 +368,26 @@ const Home = () => {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
+
+
+<Accordion/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </>
   );
 };

@@ -43,7 +43,7 @@ const Aboutus = () => {
           }}
           navigation={true}
           loop={true}
-          pagination={false}
+          pagination={true}
           modules={[EffectCoverflow, Pagination, Navigation]}
           className="about-swiper"
           breakpoints={{
