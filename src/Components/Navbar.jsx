@@ -30,8 +30,8 @@ const Navbar = () => {
             className="w-16 rounded-xl"
             style={{
               position: "absolute",
-              left: 30,
-              top: 20,
+              left: 0,
+              top: 0,
               cursor: "pointer",
               zIndex: 1,
             }}
