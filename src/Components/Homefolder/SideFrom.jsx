@@ -4,10 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const CountryModal = ({ information }) => {
   const [date, setDate] = useState(null);
 
-  const [position, setPosition] = useState("");
-  const handlePosition = (e) => {
-    setPosition(e.target.value);
-  };
+ 
 
   const form = useRef();
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -214,6 +211,15 @@ const CountryModal = ({ information }) => {
                               <div className="mt-4 flex justify-end"></div>
                             </form>
                           </div>
+
+
+
+
+
+
+
+
+                          
                         </div>
                       </div>
                     </div>
