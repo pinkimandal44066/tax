@@ -16,7 +16,12 @@ const Footer = () => {
         <div className="lg:mx-20 mx-4 ">
           <h1 className="text-lg font-semibold ">Share Tax</h1>
           <p className="lg:w-96 md:w-60 w-full mt-3 text-justify">
-          Taxation is the cornerstone of a functioning society, providing the necessary funds for essential services and infrastructure. However, it's crucial for tax policies to be equitable, transparent, and supportive of economic growth. Through fair taxation, governments can foster prosperity while ensuring social welfare, fostering a more just and sustainable future.
+            Taxation is the cornerstone of a functioning society, providing the
+            necessary funds for essential services and infrastructure. However,
+            it's crucial for tax policies to be equitable, transparent, and
+            supportive of economic growth. Through fair taxation, governments
+            can foster prosperity while ensuring social welfare, fostering a
+            more just and sustainable future.
           </p>
         </div>
 
@@ -31,9 +36,7 @@ const Footer = () => {
                 <p className="mt-2">My Account</p>
                 <p className="mt-2">Create an Account</p>
                 <p className="mt-2">Tata New</p>
-              
               </div>
-         
             </div>
 
             {/* 2nd */}
@@ -46,8 +49,6 @@ const Footer = () => {
                 <p className="mt-2">Our Journey</p>
                 <p className="mt-2">What We Do</p>
               </div>
-
-           
             </div>
 
             {/* 3rd */}
@@ -57,8 +58,6 @@ const Footer = () => {
                 <p className="mt-2">Store Locations</p>
                 <p className="mt-2">Business Partner</p>
               </div>
-
-          
             </div>
           </div>
         </div>
@@ -98,8 +97,8 @@ const Footer = () => {
       <div className="lg:mx-20 mx-4 mt-10 ">
         <h1 className="text-lg font-semibold ">POPULAR SEARCHES</h1>
         <p className="w-full text-xs lg:text-base mt-2">
-        Our Policies | My Account | Create an Account | Tata New | About Us
-        Our Mission | Our Journey | What We Do | Store Locations
+          Our Policies | My Account | Create an Account | Tata New | About Us
+          Our Mission | Our Journey | What We Do | Store Locations
         </p>
       </div>
 

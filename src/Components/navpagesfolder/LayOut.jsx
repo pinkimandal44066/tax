@@ -22,10 +22,8 @@ const LayOut = () => {
       ) : (
         <>
           <Navbar />
-
           <ScrollToTop />
           <Outlet />
-
           <Footer />
         </>
       )}

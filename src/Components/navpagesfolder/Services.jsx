@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Navigation } from "swiper/modules";
+// import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import img18 from '../../../public/images/img18.png'
 
 const Eight = () => {
   const swiperRef = useRef(null);
@@ -52,7 +51,7 @@ const Eight = () => {
                   </div>
                   <div className="md:w-[34rem] w-full">
                     <h1 className="lg:text-4xl text-2xl mt-7 lg:mt-0 md:mt-0">
-                    Tax Advisory Services
+                      Tax Advisory Services
                     </h1>
                     <p className="font-light  text-justify lg:text-xl text-xl lg:mt-10 mt-6">
                       Loarm doesnt seem to correspond to any known language or
@@ -146,7 +145,7 @@ const Eight = () => {
                   </div>
                   <div className="md:w-[34rem] w-full">
                     <h1 className="lg:text-4xl text-2xl mt-7 lg:mt-0 md:mt-0">
-                    Tax Optimization
+                      Tax Optimization
                     </h1>
                     <p className="font-light  text-justify lg:text-xl text-xl lg:mt-10 mt-6">
                       Loarm doesnt seem to correspond to any known language or
@@ -240,7 +239,7 @@ const Eight = () => {
                   </div>
                   <div className="md:w-[34rem] w-full">
                     <h1 className="lg:text-4xl text-2xl mt-7 lg:mt-0 md:mt-0">
-                    Tax Education and Training
+                      Tax Education and Training
                     </h1>
                     <p className="font-light  text-justify lg:text-xl text-xl lg:mt-10 mt-6">
                       Loarm doesnt seem to correspond to any known language or
@@ -334,7 +333,7 @@ const Eight = () => {
                   </div>
                   <div className="md:w-[34rem] w-full">
                     <h1 className="lg:text-4xl text-2xl mt-7 lg:mt-0 md:mt-0">
-                    Tax Technology Solutions
+                      Tax Technology Solutions
                     </h1>
                     <p className="font-light text-justify lg:text-xl text-xl lg:mt-10 mt-6">
                       Loarm doesnt seem to correspond to any known language or
@@ -428,7 +427,7 @@ const Eight = () => {
                   </div>
                   <div className="md:w-[34rem] w-full">
                     <h1 className="lg:text-4xl text-2xl mt-7 lg:mt-0 md:mt-0">
-                    Tax Representation
+                      Tax Representation
                     </h1>
                     <p className="font-light   text-justify lg:text-xl text-xl lg:mt-10 mt-6">
                       Loarm doesnt seem to correspond to any known language or
@@ -522,7 +521,7 @@ const Eight = () => {
                   </div>
                   <div className="md:w-[34rem] w-full">
                     <h1 className="lg:text-4xl text-2xl mt-7 lg:mt-0 md:mt-0">
-                    Tax Risk Management:
+                      Tax Risk Management:
                     </h1>
                     <p className="font-light   text-justify lg:text-xl text-xl lg:mt-10 mt-6">
                       Loarm doesnt seem to correspond to any known language or
@@ -602,24 +601,15 @@ const Eight = () => {
                 </div>
               </div>
             </div>
-
-            
           </SwiperSlide>
-
-
-
-          
         </div>
       </Swiper>
 
-
-
       <div className="max-w-screen-xl  mx-7 lg:mx-64 md:mx-28 sm:mx-12 ">
-        <h1 className="lg:text-3xl text-xl font-semibold text-[#E79F30]">Services</h1>
+        <h1 className="lg:text-3xl text-xl font-semibold text-[#E79F30]">
+          Services
+        </h1>
       </div>
-
-
-
 
       <div className="max-w-screen-xl lg:mx-auto  ">
         <div
@@ -631,10 +621,11 @@ const Eight = () => {
 
           <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
             <h1 className="text-xl text-[#E79F30]   font-semibold lg:mt-10 md:mt-4 lg:mx-16 md:mx-7">
-            Tax Planning:
+              Tax Planning:
             </h1>
             <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero veritatis enim minus non debitis quo unde iure ...
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+              veritatis enim minus non debitis quo unde iure ...
             </p>
           </div>
 
@@ -642,11 +633,11 @@ const Eight = () => {
 
           <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
             <h1 className="text-xl text-[#E79F30]  font-semibold lg:mt-10 md:mt-4 lg:mx-12 md:mx-7">
-            Tax Preparation:
+              Tax Preparation:
             </h1>
             <p className="lg:w-60 text-xs  md:mx-2  lg:mx-5 mt-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Vero veritatis enim minus non debitis quo unde iure ...
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+              veritatis enim minus non debitis quo unde iure ...
             </p>
           </div>
 
@@ -654,49 +645,45 @@ const Eight = () => {
 
           <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
             <h1 className="text-xl  text-[#E79F30] font-semibold lg:mt-10 md:mt-4 lg:mx-10 md:mx-7">
-            Tax Compliance:
+              Tax Compliance:
             </h1>
             <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Vero veritatis enim minus non debitis quo unde iure ...
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+              veritatis enim minus non debitis quo unde iure ...
             </p>
           </div>
 
           <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
             <h1 className="text-xl  text-[#E79F30] font-semibold lg:mt-7 md:mt-4 lg:mx-10 md:mx-7">
-            Tax Consultation:
+              Tax Consultation:
             </h1>
             <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Vero veritatis enim minus non debitis quo unde iure ...
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+              veritatis enim minus non debitis quo unde iure ...
             </p>
           </div>
 
           <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
             <h1 className="text-xl text-[#E79F30] font-semibold lg:mt-7 md:mt-4 lg:mx-12 md:mx-7">
-            Tax  Assessment:
+              Tax Assessment:
             </h1>
             <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Vero veritatis enim minus non debitis quo unde iure ...
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+              veritatis enim minus non debitis quo unde iure ...
             </p>
           </div>
 
           <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
             <h1 className="text-xl text-[#E79F30] font-semibold lg:mt-7 md:mt-4 lg:mx-12 md:mx-7">
-            Tax Advocacy: 
+              Tax Advocacy:
             </h1>
             <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Vero veritatis enim minus non debitis quo unde iure ...
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+              veritatis enim minus non debitis quo unde iure ...
             </p>
           </div>
-
-         
         </div>
       </div>
-
-
     </div>
   );
 };
