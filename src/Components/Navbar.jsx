@@ -129,7 +129,7 @@ const Navbar = () => {
 
                 <div className="flex justify-center items-center lg:text-4xl text-3xl gap-10">
                   <Link
-                    to="https://www.facebook.com/YourFacebookPage"
+                    to="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -137,7 +137,7 @@ const Navbar = () => {
                   </Link>
 
                   <Link
-                    to="https://www.instagram.com/YourInstagramUsername"
+                    to="https://www.instagram.com/accounts/login/?hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

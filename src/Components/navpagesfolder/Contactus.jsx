@@ -48,7 +48,7 @@ const Contactus = () => {
 
                 <div className="flex mt-7 lg:text-5xl text-2xl text-[#E79F30] cursor-pointer gap-8 justify-center lg:justify-start">
                   <Link
-                    to="https://www.facebook.com/YourFacebookPage"
+                    to="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -56,7 +56,7 @@ const Contactus = () => {
                   </Link>
 
                   <Link
-                    to="https://www.instagram.com/YourInstagramUsername"
+                    to="https://www.instagram.com/accounts/login/?hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -111,7 +111,7 @@ const Contactus = () => {
 
               <div className="text-3xl lg:text-5xl mt-4 text-[#E79F30] flex gap-10">
                 <Link
-                  to="https://www.facebook.com/YourFacebookPage"
+                  to="https://www.facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -119,7 +119,7 @@ const Contactus = () => {
                 </Link>
 
                 <Link
-                  to="https://www.instagram.com/YourInstagramUsername"
+                  to="https://www.instagram.com/accounts/login/?hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -137,12 +137,12 @@ const Contactus = () => {
 
               <div className="text-3xl lg:text-5xl mt-4 text-[#E79F30] flex  gap-10">
                 <link
-                  href="https://www.facebook.com/YourFacebookPage"
+                  href="https://www.facebook.com/"
                   rel="noopener noreferrer"
                 />
 
                 <link
-                  href="https://www.instagram.com/YourInstagramUsername"
+                  href="https://www.instagram.com/accounts/login/?hl=en"
                   rel="noopener noreferrer"
                 />
 

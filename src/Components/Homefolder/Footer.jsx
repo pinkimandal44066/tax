@@ -1,10 +1,10 @@
 // import React from 'react'
-import { FaSquareYoutube } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div
@@ -18,7 +18,7 @@ const Footer = () => {
           <p className="lg:w-96 md:w-60 w-full mt-3 text-justify">
             Taxation is the cornerstone of a functioning society, providing the
             necessary funds for essential services and infrastructure. However,
-            it's crucial for tax policies to be equitable, transparent, and
+            it crucial for tax policies to be equitable, transparent, and
             supportive of economic growth. Through fair taxation, governments
             can foster prosperity while ensuring social welfare, fostering a
             more just and sustainable future.
@@ -75,10 +75,39 @@ const Footer = () => {
             <div className="">
               <h1 className="text-lg font-semibold mt-5">CONNECT WITH US</h1>
               <div className="flex text-white text-3xl gap-3 mt-2">
-                <FaSquareYoutube />
-                <FaFacebook />
-                <FaInstagramSquare />
-                <FaTwitterSquare />
+              <Link
+                    to="https://www.youtube.com/channel/YourChannelID"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <IoLogoYoutube />
+                  </Link>
+                <Link
+                    to="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebook />
+                  </Link>
+                    
+                  
+                  <Link
+                    to="https://www.instagram.com/accounts/login/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaInstagramSquare />
+                  </Link>
+
+
+                  <Link
+                    to="https://x.com/i/flow/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                   <FaTwitterSquare />
+                  </Link>
+              
               </div>
               <div className="flex mt-7 gap-4">
                 <FaPhone className=" text-white text-3xl mt-3" />
