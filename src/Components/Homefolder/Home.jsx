@@ -333,8 +333,7 @@ const Home = () => {
                         </div>
 
                         <div
-                          className="flex justify-center items-center h-screen
-         lg:-mt-40 md:-mt-52 sm:-mt-52 -mt-56 xl:-mt-40"
+                          className="flex justify-center items-center mt-10 "
                         >
                           <div className="bg-[#E79F30]  rounded-md shadow-md max-w-md w-full">
                             <h1 className="text-lg font-semibold mb-4 px-3">
@@ -355,7 +354,7 @@ const Home = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-center -mt-60 lg:-mt-44  md:-mt-52 sm:-mt-52 xl:-mt-44">
+                    <div className="flex items-center justify-center mt-10">
                       <button className="mb-10 py-3 px-28 rounded-sm bg-[#E79F30] text-white font-semibold text-2xl">
                         SUBMIT
                       </button>

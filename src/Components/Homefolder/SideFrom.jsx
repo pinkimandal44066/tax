@@ -193,7 +193,7 @@ const CountryModal = ({ information }) => {
                         </div>
 
                         <div
-                          className="flex justify-center items-center"
+                          className="flex justify-center items-center mt-10"
                         >
                           <div className="bg-[#E79F30]  rounded-md shadow-md max-w-md w-full">
                             <h1 className="text-lg font-semibold mb-4 px-3">
@@ -223,7 +223,7 @@ const CountryModal = ({ information }) => {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center justify-center mt-10">
                       <button className="mb-10 py-3 px-28 rounded-sm bg-[#E79F30] text-white font-semibold text-2xl">
                         SUBMIT
                       </button>
