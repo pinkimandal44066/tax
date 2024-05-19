@@ -152,7 +152,7 @@ const Enquiry = () => {
         </Swiper>
       </div>
 
-      <div className="mt-32 ">
+      <div className="lg:mt-24 mt-8 ">
         <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28 xl:mx-36 2xl:mx-48 lg:-mt-16">
           <AccordionItem
             title="Compliance with Tax Laws"
