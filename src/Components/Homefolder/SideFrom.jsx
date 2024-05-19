@@ -193,8 +193,7 @@ const CountryModal = ({ information }) => {
                         </div>
 
                         <div
-                          className="flex justify-center items-center h-screen
-         lg:-mt-40 md:-mt-52 sm:-mt-52 -mt-56 2xl:-mt-"
+                          className="flex justify-center items-center"
                         >
                           <div className="bg-[#E79F30]  rounded-md shadow-md max-w-md w-full">
                             <h1 className="text-lg font-semibold mb-4 px-3">
@@ -224,7 +223,7 @@ const CountryModal = ({ information }) => {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-center -mt-60 lg:-mt-40  md:-mt-52 sm:-mt-52">
+                    <div className="flex items-center justify-center">
                       <button className="mb-10 py-3 px-28 rounded-sm bg-[#E79F30] text-white font-semibold text-2xl">
                         SUBMIT
                       </button>
@@ -245,3 +244,7 @@ const CountryModal = ({ information }) => {
 };
 
 export default CountryModal;
+
+
+
+
