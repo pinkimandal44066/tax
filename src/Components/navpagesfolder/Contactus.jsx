@@ -23,6 +23,7 @@ const Contactus = () => {
   return (
     <>
     <SideFrom />
+    
       <div className="font-Poppins mt-10">
         {/* location part */}
 

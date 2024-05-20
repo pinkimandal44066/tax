@@ -41,7 +41,7 @@ function App() {
   const menuItems = [
     // { id: 5, title: "Home", path: "/" },
     { id: 1, title: "About Us", path: "/about-us" },
-    { id: 2, title: "Service", path: "/service" },
+    { id: 2, title: "Services", path: "/service" },
     { id: 3, title: "Enquiry", path: "/enquiry" },
     { id: 4, title: "Contact Us", path: "/contact-us" },
   ];
