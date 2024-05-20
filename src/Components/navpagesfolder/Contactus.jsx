@@ -11,6 +11,7 @@ import { IoCalendarNumberOutline } from "react-icons/io5";
 
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
+import SideFrom from "../Homefolder/SideFrom";
 const Contactus = () => {
   const [date, setDate] = useState(null);
 
@@ -21,6 +22,7 @@ const Contactus = () => {
 
   return (
     <>
+    <SideFrom />
       <div className="font-Poppins mt-10">
         {/* location part */}
 

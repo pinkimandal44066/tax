@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
-const CountryModal = ({ information }) => {
+const SideFrom = ({ information }) => {
   const [date, setDate] = useState(null);
 
   const form = useRef();
@@ -231,4 +231,14 @@ const CountryModal = ({ information }) => {
   );
 };
 
-export default CountryModal;
+export default SideFrom;
+
+
+
+
+
+
+
+
+
+
